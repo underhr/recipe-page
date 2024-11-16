@@ -117,6 +117,8 @@ td{
 @media only screen and (max-width: 375px) {
     #block{
         width:375px;
+        margin-top:0;
+        padding-top:0;
     }
     img{
         width:375px;
@@ -125,7 +127,6 @@ td{
     #content{
         width:311px;
         margin-top:0;
-        padding:
     }
     #preptime{
         width:199px;
