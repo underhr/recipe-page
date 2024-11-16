@@ -120,12 +120,13 @@ td{
         margin-bottom:0;
     }
     img{
-        width:100%;
+        width:375px;
+        border-radius:none;
     }
     #content{
         width:311px;
     }
     #preptime{
-        width:311px;
+        width:263px;
     }
 }
