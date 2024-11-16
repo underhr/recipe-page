@@ -123,8 +123,6 @@ hr{
         width:375px;
         margin-top:0;
         padding-top:0;
-        padding-left:32px;
-        padding-right:32px;
     }
     img{
         width:375px;
@@ -134,6 +132,8 @@ hr{
         width:311px;
         margin-top:0;
         padding-top:0;
+        margin-left:32px;
+        margin-right:32px;
     }
     #preptime{
         width:199px;
