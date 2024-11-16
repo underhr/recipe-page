@@ -114,7 +114,13 @@ td{
 
 /*phone view*/
 @media only screen and (max-width: 375px) {
-    #block{
-        width:100%;
+    #block, img{
+        width:375px;
+    }
+    #content{
+        width:311px;
+    }
+    #preptime{
+        width:311px;
     }
 }
