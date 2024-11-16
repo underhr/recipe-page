@@ -127,6 +127,7 @@ hr{
     img{
         width:375px;
         border-radius:0;
+        display:none;
     }
     #content{
         width:311px;
@@ -134,6 +135,7 @@ hr{
         padding-top:0;
         margin-left:32px;
         margin-right:32px;
+        border-radius:0px;
     }
     #preptime{
         width:199px;
