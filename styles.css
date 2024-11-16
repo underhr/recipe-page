@@ -123,6 +123,7 @@ td{
     }
     #content{
         width:311px;
+        margin-top:0;
     }
     #preptime{
         width:263px;
@@ -130,7 +131,9 @@ td{
     body{
         padding-top:0px;
         padding-bottom:0px;
-        color:white;
+        background-color:white;
+        margin-top:0;
+        margin-bottom:0;
     }
     .maintitle{
         font-size:36px;
