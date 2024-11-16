@@ -14,6 +14,7 @@
     font-family: outfitbold;
     src: url(assets/fonts/outfit/static/Outfit-Bold.ttf);
 }
+
 body{
     background-color:#F3E5D7;
     font-size:16px;
@@ -124,6 +125,7 @@ td{
     #content{
         width:311px;
         margin-top:0;
+        padding:
     }
     #preptime{
         width:199px;
