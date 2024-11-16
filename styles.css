@@ -1,10 +1,18 @@
 @font-face {
     font-family: outfit;
-    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(assets/fonts/outfit//static/Outfit-Regular.ttf);
 }
 @font-face {
     font-family: youngserif;
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: outfitsemibold;
+    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+}
+@font-face {
+    font-family: outfitbold;
+    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf);
 }
 body{
     background-color:#F3E5D7;
@@ -12,6 +20,10 @@ body{
     margin:0;
     align-items: center;
     height:100vh;
+    font-size:16px;
+    color:#5F564D;
+    font-family:outfit;
+    margin-top:40px;
 }
 
 #block{
@@ -36,7 +48,7 @@ img{
     margin-bottom:40px;
 }
 
-.title{
+.maintitle{
     color:#312E2C;
     font-family:youngserif;
     font-size:40px;
@@ -46,4 +58,43 @@ img{
     color:#5F564D;
     font-family:outfit;
     font-size:16px;
+}
+
+#preptime{
+    background-color:#FFF7FB;
+    margin-top:32px;
+    margin-bottom:32px;
+    border-radius:12px;
+    color:#7A284E;
+    line-height:225%;
+    padding:24px;
+}
+
+li{
+    padding-left:20px;
+    line-height:225%;
+}
+
+.title{
+    font-size:28px;
+    font-family:youngserif;
+    color:#854632;
+}
+
+hr{
+    color:#E3DDD7;
+}
+
+table{
+    width:100%;
+}
+
+td{
+    border-bottom:1px solid #E3DDD7;
+    padding:16px;
+}
+
+.measurements{
+    color: #854632;
+    font-family:outfitbold;
 }
