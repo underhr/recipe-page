@@ -16,14 +16,14 @@
 }
 body{
     background-color:#F3E5D7;
-    display:flex;
-    margin:0;
-    align-items: center;
-    height:100vh;
     font-size:16px;
     color:#5F564D;
     font-family:outfit;
-    margin-top:40px;
+    padding-top:128px;
+    padding-bottom:128px;
+    display:flex;
+    margin:0;
+    align-items: center;
 }
 
 #block{
@@ -97,4 +97,24 @@ td{
 .measurements{
     color: #854632;
     font-family:outfitbold;
+}
+
+/*tablet view*/
+@media only screen and (max-width: 768px) {
+    #block{
+        width: 616px;
+    }
+    #content, img{
+        width:536px;
+    }
+    #preptime{
+        width:488px;
+    }
+}
+
+/*phone view*/
+@media only screen and (max-width: 375px) {
+    #block{
+        width:100%;
+    }
 }
