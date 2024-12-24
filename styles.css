@@ -118,27 +118,27 @@ hr{
 }
 
 /*phone view*/
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 616px) {
+    
     #block{
-        width:414px;
+        width:100vw;
         margin-top:0;
         padding-top:0;
     }
     img{
         border-radius:0;
         width:100vw;
-        margin-left:-32px;
+        margin:auto;
     }
     #content{
-        width:311px;
+        width:100vw;
         margin-top:0;
         padding-top:0;
-        margin-left:32px;
-        margin-right:32px;
         border-radius:0px;
     }
     #preptime{
-        max-width:250px;
+        margin:auto;
+        width:80vw;
     }
     body{
         padding-top:0px;
@@ -149,5 +149,23 @@ hr{
     }
     .maintitle{
         font-size:36px;
+        margin-left:32px;
+        margin-right:32px;
+    }
+    .description{
+        margin-left:32px;
+        margin-right:32px;
+    }
+    #ingredients{
+        margin-left:32px;
+        margin-right:32px;
+    }
+    #instructions{
+        margin-left:32px;
+        margin-right:32px;
+    }
+    #nutrition{
+        margin-left:32px;
+        margin-right:32px;
     }
 }
